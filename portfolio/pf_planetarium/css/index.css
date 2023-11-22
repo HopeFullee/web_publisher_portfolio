@@ -1,0 +1,156 @@
+.app_wrapper {
+    overflow: hidden;
+}
+
+#loading-screen {
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 1;
+ 	transition: 2s opacity;
+}
+
+#loading-screen.fade-out {
+    opacity: 0;
+}
+
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #9370DB;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #BA55D3;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #FF00FF;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+#model_container {
+    width: 1000vw;
+    display: flex;
+
+    transition: 0.5s ease;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.controller-wrapper {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.controller {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    top: 80%;
+    z-index: 10;
+}
+
+.controller > p {
+    font-family: 'Locust', sans-serif;
+    font-size: 42px;
+    color: white;
+    text-shadow: 0 0 10px #39FF14;
+       
+
+    letter-spacing: 3px;
+}
+
+.left-btn,
+.right-btn {
+    border: none;
+    background: none;    
+}
+
+.left-btn > img,
+.right-btn > img {
+    width: 30px;
+
+    filter: drop-shadow(0 0 3px #39FF14);
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .controller {
+        width: 90%;
+    }
+
+    .controller > p {
+        font-size: 24px;
+    }
+
+    .left-btn > img,
+    .right-btn > img {
+    width: 20px;
+
+    filter: drop-shadow(0 0 3px #39FF14);
+}
+}

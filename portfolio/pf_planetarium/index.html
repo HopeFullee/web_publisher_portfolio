@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <title>Planetarium</title>
+</head>
+<body>
+    <section id="loading-screen">
+        <div id="loader"></div>
+    </section>
+
+    <div class="app_wrapper">
+
+        <ul id="model_container">
+            <li class="milky-way"></li>
+            <li class="sun"></li>
+            <li class="mercury"></li>
+            <li class="venus"></li>
+            <li class="earth"></li>
+            <li class="mars"></li>
+            <li class="jupiter"></li>
+            <li class="saturn"></li>
+            <li class="uranus"></li>
+            <li class="neptune"></li>
+        </ul>
+
+        <div class="controller-wrapper">
+            <div class="controller">
+                <button class="left-btn"><img class="left" src="./assets/arrow-left.png" alt="left Arrow"></button>
+                <p class="model-name">MILKY WAY</p>
+                <button class="right-btn"><img src="./assets/arrow-right.png" alt="right Arrow"></button>
+            </div>
+        </div>
+
+       
+    </div>
+    
+
+    <script type="module" src="./js/model.js" defer></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

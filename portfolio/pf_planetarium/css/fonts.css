@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Locust';
+    src: local(※), url('../assets/fonts/CGFLocustResistance.woff2') format('woff2'),
+        url('../assets/fonts/CGFLocustResistance.woff') format('woff');
+}

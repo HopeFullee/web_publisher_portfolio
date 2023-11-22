@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.3c6649c6.css",
+    "main.js": "./static/js/main.f3722c4e.js",
+    "static/media/video.mp4": "./static/media/video.e54f8657e8c7816105e5.mp4",
+    "static/media/bg.png": "./static/media/bg.86f6f15f0afb1cffded4.png",
+    "static/media/findus.png": "./static/media/findus.c924a0088ea175226fb2.png",
+    "static/media/welcome.png": "./static/media/welcome.40b6e7dbfd03f498bb32.png",
+    "static/media/founder.png": "./static/media/founder.e7e2ec4efe343b3a68c1.png",
+    "static/media/laurels.png": "./static/media/laurels.be22d18728ba96f4c6f1.png",
+    "static/media/overlaybg.png": "./static/media/overlaybg.73686e790a6ccf626011.png",
+    "static/media/gallery03.png": "./static/media/gallery03.0ec96c338bd1df32c933.png",
+    "static/media/logo.png": "./static/media/logo.45566d7a206033c182f6.png",
+    "static/media/gallery04.png": "./static/media/gallery04.7fe7ee7c786c3375e90d.png",
+    "static/media/gallery01.png": "./static/media/gallery01.18c706e9012235d2b951.png",
+    "static/media/gallery02.png": "./static/media/gallery02.4ca40c3eaed7f4ed9902.png",
+    "static/media/bracelet.png": "./static/media/bracelet.4f8ef041e5b0dde2f59b.png",
+    "static/media/product03.png": "./static/media/product03.c60ec731d0ab22207f31.png",
+    "static/media/product01.png": "./static/media/product01.83a022a42eca4e341c02.png",
+    "static/media/product02.png": "./static/media/product02.34c31aef813c2a34c236.png",
+    "static/media/award02.png": "./static/media/award02.8bbdd51499739653b003.png",
+    "static/media/award05.png": "./static/media/award05.48a7f5206184009dcb29.png",
+    "static/media/award01.png": "./static/media/award01.361a4bc44b59b55abeda.png",
+    "static/media/award03.png": "./static/media/award03.3f7ee934c17dccbd5fc6.png",
+    "index.html": "./index.html",
+    "main.3c6649c6.css.map": "./static/css/main.3c6649c6.css.map",
+    "main.f3722c4e.js.map": "./static/js/main.f3722c4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c6649c6.css",
+    "static/js/main.f3722c4e.js"
+  ]
+}

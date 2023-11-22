@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'MetroItalic';
+    src: local('※'), url('../font/Metropolis/Metropolis-MediumItalic.woff2') format('woff2'),
+        url('../font/Metropolis/Metropolis-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: local('※'), url('../font/Metropolis/Metropolis-Medium.woff2') format('woff2'),
+        url('../font/Metropolis/Metropolis-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'pixel';
+    src: local('※'), url('../font/DungGeunMo/DungGeunMo.woff2') format('woff2'),
+    url('../font/DungGeunMo/DungGeunMo.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'MaruBuri';
+    src: local('※'), url('../font/MaruBuri/MaruBuri-Regular.woff2') format('woff2'),
+    url('../font/MaruBuri/MaruBuri-Regular.woff') format('woff');
+}
