@@ -120,7 +120,6 @@
 .pf-thumbnail > p {
   font-family: "Pretendard", sans-serif;
   font-size: 16px;
-  font-weight: bold;
 }
 
 .pf-sum {
@@ -140,7 +139,7 @@
   font-size: 16.5px;
   line-height: 28px;
   margin-top: 10px;
-  word-break: break-word;
+  word-break: keep-all;
 }
 
 .pf-right {
