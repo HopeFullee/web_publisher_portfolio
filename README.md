@@ -1,8 +1,11 @@
 ## 웹 퍼블리셔 포트폴리오
 
 **기간**: 2022.01 - 2022.02
+
 **역할/구성**: 웹 퍼블리셔 1명 (본인)
+
 **사용 기술**: JavaScript, HTML, CSS, React.js, Three.js
+
 **배포**: https://hopefullee.github.io/web_publisher_portfolio/
 
 ### ✅ 주요 작업 내용
