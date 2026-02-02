@@ -4,7 +4,7 @@
 
 **역할/구성**: 웹 퍼블리셔 1명 (본인)
 
-**사용 기술**: JavaScript, HTML, CSS, React.js, Three.js
+**사용 기술**: JavaScript, HTML, CSS, React.js, Three.js, Adobe Ps
 
 **배포**: https://hopefullee.github.io/web_publisher_portfolio/
 
